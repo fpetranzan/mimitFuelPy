@@ -159,7 +159,7 @@ pip install mimitfuelpy
 
 If you encounter issues:
 
-1. Check the [examples]({{ site.baseurl }}{% link examples/index.md %}) for common use cases
-2. Review [API documentation]({{ site.baseurl }}{% link api/index.md %})
+1. Check the [examples]({{ site.baseurl }}/examples/index.html) for common use cases
+2. Review [API documentation]({{ site.baseurl }}/api/index.html)
 3. Search [GitHub issues](https://github.com/fpetranzan/mimitFuelPy/issues)
 4. Create a new issue with details about your problem

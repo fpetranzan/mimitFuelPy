@@ -12,21 +12,21 @@ Real-world examples and code snippets to help you get the most out of mimitfuelp
 
 ## Basic Examples
 
-- **[Basic Usage]({{ site.baseurl }}{% link examples/basic-usage.md %})** - Simple examples to get started
-- **[Search Examples]({{ site.baseurl }}{% link examples/search-examples.md %})** - Various ways to search for fuel stations
-- **[Geographic Data]({{ site.baseurl }}{% link examples/geographic-data.md %})** - Working with regions, provinces, and towns
+- **[Basic Usage]({{ site.baseurl }}/examples/basic-usage.html)** - Simple examples to get started
+- **[Search Examples]({{ site.baseurl }}/examples/search-examples.html)** - Various ways to search for fuel stations
+- **[Geographic Data]({{ site.baseurl }}/examples/geographic-data.html)** - Working with regions, provinces, and towns
 
 ## Advanced Examples
 
-- **[Error Handling]({{ site.baseurl }}{% link examples/error-handling.md %})** - Robust error handling patterns
-- **[Data Processing]({{ site.baseurl }}{% link examples/data-processing.md %})** - Processing and analyzing fuel data
-- **[Async Usage]({{ site.baseurl }}{% link examples/async-usage.md %})** - Using mimitfuelpy in async applications
+- **[Error Handling]({{ site.baseurl }}/examples/error-handling.html)** - Robust error handling patterns
+- **[Data Processing]({{ site.baseurl }}/examples/data-processing.html)** - Processing and analyzing fuel data
+- **[Async Usage]({{ site.baseurl }}/examples/async-usage.html)** - Using mimitfuelpy in async applications
 
 ## Use Cases
 
-- **[Price Comparison]({{ site.baseurl }}{% link examples/price-comparison.md %})** - Find the cheapest fuel stations
-- **[Route Planning]({{ site.baseurl }}{% link examples/route-planning.md %})** - Find stations along a route
-- **[Data Analysis]({{ site.baseurl }}{% link examples/data-analysis.md %})** - Analyzing fuel price trends
+- **[Price Comparison]({{ site.baseurl }}/examples/price-comparison.html)** - Find the cheapest fuel stations
+- **[Route Planning]({{ site.baseurl }}/examples/route-planning.html)** - Find stations along a route
+- **[Data Analysis]({{ site.baseurl }}/examples/data-analysis.html)** - Analyzing fuel price trends
 
 ## Running the Examples
 
@@ -46,4 +46,4 @@ python examples/basic_usage.py
 
 ## Contributing Examples
 
-We welcome contributions of new examples! Please see our [Contributing Guide]({{ site.baseurl }}{% link guides/contributing.md %}) for details on how to submit new examples.
+We welcome contributions of new examples! Please see our [Contributing Guide]({{ site.baseurl }}/guides/contributing.html) for details on how to submit new examples.

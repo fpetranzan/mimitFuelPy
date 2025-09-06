@@ -48,7 +48,7 @@ client = Client(base_url="https://custom-api.example.com")
 
 Access to registry operations (brands, geographic data, service areas).
 
-**Type:** [`Registry`]({{ site.baseurl }}{% link api/registry.md %})
+**Type:** [`Registry`]({{ site.baseurl }}/api/registry.html)
 
 **Example:**
 ```python
@@ -63,7 +63,7 @@ regions = client.registry.regions()
 
 Access to search operations for fuel stations.
 
-**Type:** [`Search`]({{ site.baseurl }}{% link api/search.md %})
+**Type:** [`Search`]({{ site.baseurl }}/api/search.html)
 
 **Example:**
 ```python

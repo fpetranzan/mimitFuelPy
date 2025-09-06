@@ -12,11 +12,11 @@ In-depth guides covering various aspects of using mimitfuelpy effectively.
 
 ## Available Guides
 
-- **[Getting Started]({{ site.baseurl }}{% link guides/getting-started.md %})** - Comprehensive guide from installation to first API calls
-- **[Best Practices]({{ site.baseurl }}{% link guides/best-practices.md %})** - Production-ready patterns and recommendations
-- **[Error Handling]({{ site.baseurl }}{% link guides/error-handling.md %})** - Robust error handling strategies
-- **[Performance Tips]({{ site.baseurl }}{% link guides/performance.md %})** - Optimize your API usage
-- **[Contributing]({{ site.baseurl }}{% link guides/contributing.md %})** - How to contribute to the project
+- **[Getting Started]({{ site.baseurl }}/guides/getting-started.html)** - Comprehensive guide from installation to first API calls
+- **[Best Practices]({{ site.baseurl }}/guides/best-practices.html)** - Production-ready patterns and recommendations
+- **[Error Handling]({{ site.baseurl }}/guides/error-handling.html)** - Robust error handling strategies
+- **[Performance Tips]({{ site.baseurl }}/guides/performance.html)** - Optimize your API usage
+- **[Contributing]({{ site.baseurl }}/guides/contributing.html)** - How to contribute to the project
 
 ## Guide Categories
 

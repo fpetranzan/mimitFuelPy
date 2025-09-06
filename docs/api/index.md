@@ -14,11 +14,11 @@ Complete reference for all mimitfuelpy classes, methods, and utilities.
 
 The mimitfuelpy library is organized into several modules:
 
-- **[Client]({{ site.baseurl }}{% link api/client.md %})** - Main client class for API interactions
-- **[Registry]({{ site.baseurl }}{% link api/registry.md %})** - Access to geographic and brand data
-- **[Search]({{ site.baseurl }}{% link api/search.md %})** - Search functionality for fuel stations
-- **[Models]({{ site.baseurl }}{% link api/models.md %})** - Data models and enums
-- **[Exceptions]({{ site.baseurl }}{% link api/exceptions.md %})** - Error handling classes
+- **[Client]({{ site.baseurl }}/api/client.html)** - Main client class for API interactions
+- **[Registry]({{ site.baseurl }}/api/registry.html)** - Access to geographic and brand data
+- **[Search]({{ site.baseurl }}/api/search.html)** - Search functionality for fuel stations
+- **[Models]({{ site.baseurl }}/api/models.html)** - Data models and enums
+- **[Exceptions]({{ site.baseurl }}/api/exceptions.html)** - Error handling classes
 
 ## Quick Reference
 

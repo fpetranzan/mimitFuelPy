@@ -200,9 +200,9 @@ print(f"Opening hours: {len(details.openingHours)} time slots")
 
 Now that you've mastered the basics:
 
-1. Explore the [API Reference]({{ site.baseurl }}{% link api/index.md %}) for complete documentation
-2. Check out more [Examples]({{ site.baseurl }}{% link examples/index.md %}) for advanced use cases
-3. Learn about [Error Handling]({{ site.baseurl }}{% link guides/error-handling.md %}) best practices
+1. Explore the [API Reference]({{ site.baseurl }}/api/index.html) for complete documentation
+2. Check out more [Examples]({{ site.baseurl }}/examples/index.html) for advanced use cases
+3. Learn about [Error Handling]({{ site.baseurl }}/guides/error-handling.html) best practices
 
 ## Complete Example
 

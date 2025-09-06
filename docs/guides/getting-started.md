@@ -339,9 +339,9 @@ def get_full_station_info(province_code):
 
 Now that you've learned the basics:
 
-1. **Explore the [API Reference]({{ site.baseurl }}{% link api/index.md %})** for complete documentation
-2. **Check out [Examples]({{ site.baseurl }}{% link examples/index.md %})** for more complex use cases
-3. **Read about [Best Practices]({{ site.baseurl }}{% link guides/best-practices.md %})** for production use
+1. **Explore the [API Reference]({{ site.baseurl }}/api/index.html)** for complete documentation
+2. **Check out [Examples]({{ site.baseurl }}/examples/index.html)** for more complex use cases
+3. **Read about [Best Practices]({{ site.baseurl }}/guides/best-practices.html)** for production use
 
 ## Complete Starter Script
 
