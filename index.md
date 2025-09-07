@@ -68,10 +68,10 @@ for station in results.results:
 
 ## What's Next?
 
-- [Installation Guide]({{ site.baseurl }}/installation.html) - Detailed installation instructions
-- [Quick Start]({{ site.baseurl }}/quick-start.html) - Get up and running quickly
-- [API Reference]({{ site.baseurl }}/api/index.html) - Complete API documentation
-- [Examples]({{ site.baseurl }}/examples/index.html) - Code examples and use cases
+- [Installation Guide]({{ site.baseurl }}/docs/installation) - Detailed installation instructions
+- [Quick Start]({{ site.baseurl }}/docs/quick-start) - Get up and running quickly  
+- [API Reference]({{ site.baseurl }}/docs/api/) - Complete API documentation
+- [Examples]({{ site.baseurl }}/docs/examples/) - Code examples and use cases
 
 ---
 
