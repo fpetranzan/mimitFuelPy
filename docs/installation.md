@@ -2,6 +2,7 @@
 layout: default
 title: Installation
 nav_order: 2
+permalink: /installation/
 ---
 
 # Installation
@@ -159,7 +160,7 @@ pip install mimitfuelpy
 
 If you encounter issues:
 
-1. Check the [examples]({{ site.baseurl }}/examples/index.html) for common use cases
-2. Review [API documentation]({{ site.baseurl }}/api/index.html)
+1. Check the [examples]({{ site.baseurl }}/examples/) for common use cases
+2. Review [API documentation]({{ site.baseurl }}/api/)
 3. Search [GitHub issues](https://github.com/fpetranzan/mimitFuelPy/issues)
 4. Create a new issue with details about your problem

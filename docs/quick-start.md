@@ -2,6 +2,7 @@
 layout: default
 title: Quick Start
 nav_order: 3
+permalink: /quick-start/
 ---
 
 # Quick Start
@@ -200,9 +201,8 @@ print(f"Opening hours: {len(details.openingHours)} time slots")
 
 Now that you've mastered the basics:
 
-1. Explore the [API Reference]({{ site.baseurl }}/api/index.html) for complete documentation
-2. Check out more [Examples]({{ site.baseurl }}/examples/index.html) for advanced use cases
-3. Learn about [Error Handling]({{ site.baseurl }}/guides/error-handling.html) best practices
+1. Explore the [API Reference]({{ site.baseurl }}/api/) for complete documentation
+2. Check out more [Examples]({{ site.baseurl }}/examples/) for advanced use cases
 
 ## Complete Example
 
