@@ -157,7 +157,7 @@ if lombardy:
 ### Basic Search
 
 ```python
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import SearchByBrandCriteria
 
 # Search for stations in Milan
 criteria = SearchByBrandCriteria(province="MI")
@@ -177,8 +177,8 @@ if results.success:
 ### Search with Filters
 
 ```python
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import FuelType
+from mimitfuelpy.models import ServiceType
 
 # Search for self-service petrol stations, sorted by price
 criteria = SearchByBrandCriteria(
@@ -354,9 +354,9 @@ Complete getting started example for mimitfuelpy.
 """
 
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import SearchByBrandCriteria
+from mimitfuelpy.models import FuelType
+from mimitfuelpy.models import ServiceType
 from mimitfuelpy.utils.exceptions import MimitApiError
 
 def main():

@@ -49,9 +49,7 @@ for brand in brands[:5]:  # Show first 5
 
 ```python
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import SearchByBrandCriteria, FuelType, ServiceType
 
 client = Client()
 
@@ -84,7 +82,7 @@ for station in results.results[:5]:  # Show first 5 results
 ### Search by Geographic Zone
 
 ```python
-from mimitfuelpy.models.search.criteria.search_by_zone_criteria import SearchByZoneCodeCriteria
+from mimitfuelpy.models import SearchByZoneCodeCriteria
 
 # Search within a specific geographic zone
 zone_criteria = SearchByZoneCodeCriteria(
@@ -215,9 +213,7 @@ Complete example showing various mimitfuelpy features.
 """
 
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import SearchByBrandCriteria, FuelType, ServiceType
 from mimitfuelpy.utils.exceptions import MimitApiError
 
 def main():

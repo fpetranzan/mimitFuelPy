@@ -26,9 +26,7 @@ pip install mimitfuelpy
 
 ```python
 from mimitfuelpy import Client
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import FuelType, ServiceType, SearchByBrandCriteria
 
 # Initialize the client
 client = Client()
@@ -138,8 +136,7 @@ print(f"Italy has {len(regions)} regions")
 ### Advanced Search
 
 ```python
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
+from mimitfuelpy.models import SearchByBrandCriteria, FuelType
 
 # Find cheapest diesel stations in Rome
 criteria = SearchByBrandCriteria(

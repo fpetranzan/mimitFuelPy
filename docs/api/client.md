@@ -67,7 +67,7 @@ Access to search operations for fuel stations.
 
 **Example:**
 ```python
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import SearchByBrandCriteria
 
 criteria = SearchByBrandCriteria(province="MI")
 results = client.search.byBrand(criteria)
@@ -102,7 +102,7 @@ try:
     print(f"Found {len(brands)} brands")
     
     # Use search operations
-    from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+    from mimitfuelpy.models import SearchByBrandCriteria
     criteria = SearchByBrandCriteria(province="MI")
     results = client.search.byBrand(criteria)
     print(f"Found {len(results.results)} stations")

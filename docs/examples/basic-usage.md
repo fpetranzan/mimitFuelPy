@@ -133,7 +133,7 @@ for town in milan_towns[:10]:  # Show first 10
 
 ```python
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import SearchByBrandCriteria
 
 client = Client()
 
@@ -158,8 +158,8 @@ else:
 
 ```python
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
+from mimitfuelpy.models import SearchByBrandCriteria
+from mimitfuelpy.models import FuelType
 
 client = Client()
 
@@ -183,7 +183,7 @@ if results.success:
 
 ```python
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import SearchByBrandCriteria
 
 client = Client()
 
@@ -217,8 +217,8 @@ if results.success and results.results:
 def find_cheapest_petrol_stations(province_code, limit=5):
     """Find the cheapest petrol stations in a province."""
     from mimitfuelpy import Client
-    from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-    from mimitfuelpy.models.enums.fuel_type import FuelType
+    from mimitfuelpy.models import SearchByBrandCriteria
+    from mimitfuelpy.models import FuelType
     
     client = Client()
     
@@ -339,7 +339,7 @@ brands = safe_brand_fetch()
 ```python
 import time
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import SearchByBrandCriteria
 from mimitfuelpy.utils.exceptions import MimitApiError
 
 def search_with_retry(province, max_retries=3):
@@ -385,9 +385,9 @@ Complete basic usage example for mimitfuelpy.
 """
 
 from mimitfuelpy import Client
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import SearchByBrandCriteria
+from mimitfuelpy.models import FuelType
+from mimitfuelpy.models import ServiceType
 from mimitfuelpy.utils.exceptions import MimitApiError
 
 def main():

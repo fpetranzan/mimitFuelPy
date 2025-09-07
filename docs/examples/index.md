@@ -12,7 +12,7 @@ Real-world examples and code snippets to help you get the most out of mimitfuelp
 
 ## Basic Examples
 
-- **[Basic Usage]({{ site.baseurl }}/examples/basic-usage)** - Simple examples to get started
+- **[Basic Usage]({{ site.baseurl }}/docs/examples/basic-usage)** - Simple examples to get started
 
 ## Running the Examples
 

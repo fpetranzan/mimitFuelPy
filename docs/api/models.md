@@ -25,7 +25,7 @@ This page documents the data models and enumerations used throughout mimitfuelpy
 Available fuel types supported by the API.
 
 ```python
-from mimitfuelpy.models.enums.fuel_type import FuelType
+from mimitfuelpy.models import FuelType
 ```
 
 **Values:**
@@ -39,8 +39,8 @@ from mimitfuelpy.models.enums.fuel_type import FuelType
 
 **Example:**
 ```python
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
+from mimitfuelpy.models import SearchByBrandCriteria
+from mimitfuelpy.models import FuelType
 
 criteria = SearchByBrandCriteria(
     province="MI",
@@ -53,7 +53,7 @@ criteria = SearchByBrandCriteria(
 Refueling service modes.
 
 ```python
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import ServiceType
 ```
 
 **Values:**
@@ -63,7 +63,7 @@ from mimitfuelpy.models.enums.service_type import ServiceType
 
 **Example:**
 ```python
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import ServiceType
 
 criteria = SearchByBrandCriteria(
     province="MI",
@@ -191,9 +191,9 @@ Criteria for searching service areas by brand.
 
 **Example:**
 ```python
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import SearchByBrandCriteria
+from mimitfuelpy.models import FuelType
+from mimitfuelpy.models import ServiceType
 
 criteria = SearchByBrandCriteria(
     province="MI",              # Milan province
@@ -216,7 +216,7 @@ Criteria for searching service areas by geographic zone.
 
 **Example:**
 ```python
-from mimitfuelpy.models.search.criteria.search_by_zone_criteria import SearchByZoneCodeCriteria
+from mimitfuelpy.models import SearchByZoneCodeCriteria
 
 criteria = SearchByZoneCodeCriteria(
     zoneCode="12345",
@@ -300,8 +300,8 @@ else:
 ### Working with Enums
 
 ```python
-from mimitfuelpy.models.enums.fuel_type import FuelType
-from mimitfuelpy.models.enums.service_type import ServiceType
+from mimitfuelpy.models import FuelType
+from mimitfuelpy.models import ServiceType
 
 # Get all enum values
 all_fuel_types = [ft.value for ft in FuelType]

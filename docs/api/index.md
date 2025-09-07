@@ -14,9 +14,9 @@ Complete reference for all mimitfuelpy classes, methods, and utilities.
 
 The mimitfuelpy library is organized into several modules:
 
-- **[Client]({{ site.baseurl }}/api/client)** - Main client class for API interactions
-- **[Registry]({{ site.baseurl }}/api/registry)** - Access to geographic and brand data
-- **[Models]({{ site.baseurl }}/api/models)** - Data models and enums
+- **[Client]({{ site.baseurl }}/docs/api/client)** - Main client class for API interactions
+- **[Registry]({{ site.baseurl }}/docs/api/registry)** - Access to geographic and brand data
+- **[Models]({{ site.baseurl }}/docs/api/models)** - Data models and enums
 
 ## Quick Reference
 
@@ -49,7 +49,7 @@ client = Client(
 brands = client.registry.brands()
 
 # Search stations by brand
-from mimitfuelpy.models.search.criteria.search_by_brand_criteria import SearchByBrandCriteria
+from mimitfuelpy.models import SearchByBrandCriteria
 criteria = SearchByBrandCriteria(province="MI")
 results = client.search.byBrand(criteria)
 
