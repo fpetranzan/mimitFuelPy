@@ -7,7 +7,7 @@ name = "mimitfuelpy"
 version = "0.1.0"
 description = "Python library for accessing Mimit Fuel Prices API"
 readme = "README.md"
-license = "MIT"
+license = {text = "MIT"}
 authors = [
     {name = "Francesco Petranzan", email = "contact-me@fpetranzan.me"}
 ]
@@ -28,7 +28,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     "Topic :: Software Development :: Libraries :: Python Modules",
-    "License :: OSI Approved :: MIT License",
 ]
 requires-python = ">=3.7"
 dependencies = [
@@ -38,7 +37,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/fpetranzan/mimitFuelPy"
 "Bug Tracker" = "https://github.com/fpetranzan/mimitFuelPy/issues"
-Documentation = "https://github.com/fpetranzan/mimitFuelPy#readme"
+Documentation = "https://fpetranzan.github.io/mimitFuelPy/"
 Repository = "https://github.com/fpetranzan/mimitFuelPy.git"
 
 [project.optional-dependencies]
