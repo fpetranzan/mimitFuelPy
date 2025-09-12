@@ -1,5 +1,5 @@
 """Version information for mimitfuelpy."""
 
-__version__ = "0.1.0"
-__author__ = "Francesco"
-__email__ = "francesco@example.com"
+__version__ = "0.2.1"
+__author__ = "fpetranzan"
+__email__ = "contact-me@fpetranzan.me"

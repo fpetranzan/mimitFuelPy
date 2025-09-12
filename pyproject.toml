@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mimitfuelpy"
-version = "0.1.0"
+version = "0.2.1"
 description = "Python library for accessing Mimit Fuel Prices API"
 readme = "README.md"
 license = {text = "MIT"}
